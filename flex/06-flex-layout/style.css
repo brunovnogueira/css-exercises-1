@@ -48,19 +48,18 @@ a{
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
-  height: 40px;
+  padding: 10px;
 }
 
 .header .left-links{
   gap: 10px;
-  padding-left: 10px;
+  padding: 0;
   margin: 0;
 }
 
 .header .right-links{
   gap: 10px;
-  padding-right: 10px;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -79,18 +78,17 @@ a{
   align-items: center;
   font-size: 14px;
   background-color: rgb(240, 235, 235);
-  height: 40px;
+  padding: 10px;
 }
 
 .footer .left-links{
   gap: 10px;
-  padding-left: 10px;
+  padding: 0;
   margin: 0;
 }
 
 .footer .right-links{
   gap: 10px;
-  padding-right: 10px;
-  padding-left: 0;
+  padding: 0;
   margin: 0;
 }
