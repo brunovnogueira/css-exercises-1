@@ -5,6 +5,11 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;/*Aqui transformamos o header, content e 
+  footer em flex items e fixamos o footer no pé da página 
+  com o space-between*/
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -16,6 +21,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 10px;
 }
 
 input {
@@ -26,6 +32,7 @@ input {
   margin-bottom: 16px;
 }
 
+/*Header*/
 ul{
   display: flex;
   list-style: none;
@@ -41,17 +48,49 @@ a{
   justify-content: space-between;
   align-items: center;
   font-size: 14px;
+  height: 40px;
 }
 
 .header .left-links{
   gap: 10px;
   padding-left: 10px;
-  margin-top: 10px;
+  margin: 0;
 }
 
 .header .right-links{
   gap: 10px;
   padding-right: 10px;
   padding-left: 0;
-  margin-top: 10px;
+  margin: 0;
+}
+
+/*Content*/
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Footer*/
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  background-color: rgb(240, 235, 235);
+  height: 40px;
+}
+
+.footer .left-links{
+  gap: 10px;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.footer .right-links{
+  gap: 10px;
+  padding-right: 10px;
+  padding-left: 0;
+  margin: 0;
 }
