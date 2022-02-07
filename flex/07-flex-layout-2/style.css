@@ -21,13 +21,16 @@ body {
   padding: 20px;
   background: #eee;
   color: darkmagenta;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
-  width: 250px;
+  width: 300px;
   background: royalblue;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 a{
@@ -37,23 +40,20 @@ a{
 
 li{
   list-style: none;
+  margin-bottom: 16px;
 }
  
 ul{
-  display: flex;
-  flex-direction: column;
-  padding: 0 0 0 20px;
-  margin-top: 10px;
-  gap: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px; 
-  height: 330px;
-  width: 330px;
-  padding: 10px;
+  width: 300px;
+  padding: 16px;
 }
 
 .container{
@@ -64,6 +64,6 @@ ul{
 .container2{
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 16px;
   padding: 32px;
 }
